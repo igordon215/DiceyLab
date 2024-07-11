@@ -8,7 +8,6 @@ public class BinsTest {
     public void incrementBin() {
         Bins myBin = new Bins(2, 12);
 
-
         //given
         Integer before = myBin.getBin(10) + 1;
 

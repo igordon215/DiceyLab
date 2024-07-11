@@ -11,15 +11,15 @@ public class Bins {
     }
 
 
-
-    public Integer getBin(int i) {
-        return null;
+    public Integer getBin(Integer binRequested) {
+        return bins[binRequested - 2];
     }
 
-    public void incrementBin(int i) {
+    public void incrementBin(Integer binRequested) {
+        bins[binRequested - 2]++;
     }
 
     public Integer[] getBins() {
-        return null;
+        return bins;
     }
 }
