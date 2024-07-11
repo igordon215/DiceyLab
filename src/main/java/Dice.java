@@ -17,9 +17,9 @@ public class Dice {
         return sum;
     }
 
-    public Integer getNumDice(){
-        return numDice;
-    }
+//    public Integer getNumDice(){
+//        return numDice;
+//    }
 
 }
 
