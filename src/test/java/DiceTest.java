@@ -29,12 +29,12 @@ public class DiceTest {
         Assert.assertTrue(sum >= min && sum <= max);
     }
 
-//    @Test
-//    public void massTest(){
-//        for (int i = 0; i < 10000 ; i++) {
-//            tossAndSum2();
-//            System.out.println("Attempt: " + i);
-//        }
-//    }
+    @Test
+    public void massTest(){
+        for (int i = 0; i < 10000 ; i++) {
+            tossAndSum2();
+            System.out.println("Attempt: " + i);
+        }
+    }
 
 }

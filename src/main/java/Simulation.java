@@ -4,7 +4,7 @@ public class Simulation {
 
     public static void main(String[] args) {
         Simulation sim = new Simulation();
-        sim.runSimulation(2, 100);
+        sim.runSimulation(2, 10000000);
         sim.printDisplay();
     }
 
@@ -20,7 +20,7 @@ public class Simulation {
     public void printDisplay() {
         String starTable = "";
         for (int i = 2; i < 13; i++) {
-            starTable += i + " : " + bin.getBin(i) + "  <---LooK" + "\n";
+            starTable += i + " : " + bin.getBin(i) + "   <---LooK O.o" + "\n";
         }
         System.out.println(starTable);
     }
